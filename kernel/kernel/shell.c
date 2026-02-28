@@ -16,7 +16,7 @@ void shell_prompt(){
 
 void shell_init(){
     cls();
-    printf("Welcome to LambdaOS Shell 0.1 !\n");
+    printf("Welcome to LambdaOS Alpha !\n");
     printf("Type 'help' for available command list\n");
     shell_prompt();
 }
@@ -95,7 +95,7 @@ void lambdafetch(){
     printf("         /XXXXX\\         Arch: i386-elf\n");
     printf("        /XXXXXXX\\        Shell: LambdaShell 0.1\n");
     printf("       /XXX/^\\XXX\\       Display: VGA Text Mode\n");
-    printf("      /XXX/   \\XXX\\      \n");
+    printf("      /XXX/   \\XXX\\      Developed by: Batum Topaloglu\n");
     printf("     /XXX/     \\XXX\\     \n");
     printf("  ..|XXX|       |XXX|..  \n");
     printf("  |XXXXX|       |XXXXX|  \n");
